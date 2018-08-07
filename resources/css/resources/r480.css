@@ -1,0 +1,32 @@
+header li {
+  font-size: 2vh;
+  width: 20vw;
+}
+
+.resources-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  text-align: center;
+}
+
+.resource-description {
+  width: 80vw;
+}
+
+.resource {
+  width: 35vw;
+}
+
+.form-title {
+  text-align: center;
+}
+
+form {
+  width: 70vw;
+}
+
+footer {
+  font-size: 1.3vh;
+}

@@ -1,0 +1,318 @@
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+input,
+textarea {
+  padding: 2vh;
+  margin: 2vh;
+  display: flex;
+}
+
+select {
+  padding: 2vh;
+  margin: 2vh;
+}
+
+button {
+  padding: 2vh;
+  margin: 2vh;
+  font-size: 2.5vh;
+  background-color: #03306b;
+  color: white;
+}
+
+button:hover {
+  background-color: #aa0d1a;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+form span {
+  margin-left: 2vh;
+  font-size: 2.2vh;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+input,
+select {
+  width: 20vw;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9vh;
+  background-color: #03306b;
+  color: white;
+  position: fixed;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 15vw;
+  font-size: 2.5vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+/* Landing */
+
+.landing-area {
+  background-image: url("../../images/rocketry.jpg");
+  height: 91vh;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding-top: 9vh;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 3vh;
+  margin-top: 10vh;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron h1 {
+  font-size: 6vh;
+  margin-bottom: 1.5vh;
+}
+
+.jumbotron h2 {
+  font-size: 4vh;
+  margin-bottom: 1.5vh;
+}
+
+.jumbotron h3 {
+  font-size: 3vh;
+}
+
+.jumbotron h3:hover {
+  color: blue;
+  transition: 0.4s;
+}
+
+/* What's Content */
+
+.whats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2vh solid #282828;
+}
+
+.programs {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+
+.program {
+  width: 30vw;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 2vw;
+  height: 90vh;
+  display: flex;
+  background-color: #03306b;
+  color: white;
+  padding: 2vh;
+}
+
+.program img {
+  width: 25vw;
+}
+
+.program-title {
+  font-size: 4vh;
+}
+
+.program-content {
+  font-size: 2.5vh;
+  width: 25vw;
+  line-height: 1.2;
+  height: 45vh;
+}
+
+.program div {
+  margin: 3vh auto;
+}
+
+.title {
+  font-size: 6vh;
+  margin-top: 10vh;
+  justify-content: center;
+  display: flex;
+  height: 10vh;
+}
+
+/* Service */
+
+.flag-section {
+  background-image: url("../../images/planes.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2vh solid #282828;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-title h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 6vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2vh;
+
+  margin-top: 10vh;
+}
+
+.service-content {
+  margin-top: 10vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 60vw;
+  margin-bottom: 10vh;
+  padding: 2vh;
+  font-size: 2.5vh;
+  line-height: 1.2;
+}
+
+/* Contact */
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  flex-direction: column;
+}
+
+.contact-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contacts-title {
+  font-size: 6vh;
+  justify-content: center;
+  display: flex;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh auto;
+  background-color: #03306b;
+  color: white;
+  padding: 2vh;
+  width: 20vw;
+  font-size: 3vh;
+  line-height: 1.2;
+}
+
+.contact:hover {
+  background-color: #aa0d1a;
+  transition: 0.3s;
+}
+
+.address-title {
+  display: flex;
+  justify-content: center;
+  font-size: 5vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+.contact-group:last-child {
+  flex-direction: column;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.address div {
+  margin: 2vh auto;
+}
+
+.numbers {
+  background-color: #03306b;
+  padding: 2vh;
+  font-size: 3vh;
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  color: white;
+}
+
+footer {
+  height: 9vh;
+  background-color: #aa0d1a;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 2vh;
+}

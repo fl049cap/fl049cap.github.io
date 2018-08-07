@@ -1,0 +1,60 @@
+nav li {
+  width: 20vw;
+  font-size: 2vh;
+}
+
+.jumbotron h1 {
+  font-size: 5vh;
+}
+
+.programs {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.program {
+  width: 75vw;
+  margin: 3vh auto;
+}
+
+.program-content {
+  width: 60vw;
+}
+
+.program img {
+  width: 60vw;
+}
+
+.service-content {
+  width: 80vw;
+}
+
+.contact {
+  width: 30vw;
+  font-size: 2vh;
+}
+
+input,
+textarea,
+button {
+  width: 30vw;
+}
+
+.contact-group {
+  margin: auto 4vw;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form span {
+  font-size: 2.5vh;
+}
+
+footer {
+  font-size: 1.5vh;
+}

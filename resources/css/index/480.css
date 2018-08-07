@@ -1,0 +1,104 @@
+header li {
+  width: 20vw;
+  font-size: 2vh;
+}
+
+.jumbotron h1 {
+  font-size: 5vh;
+}
+
+.jumbotron h2 {
+  font-size: 3.5vh;
+}
+
+.jumbotron h3 {
+  font-size: 2.5vh
+}
+
+.programs {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.program {
+  width: 80vw;
+  height: 100vh;
+  margin: 4vh auto;
+}
+
+.program-content {
+  width: 70vw;
+}
+
+.program img {
+  width: 70vw;
+}
+
+.title {
+  text-align: center;
+}
+
+.service-title {
+  text-align: center;
+}
+
+.service-content {
+  width: 75vw;
+}
+
+.contact-section {
+  flex-direction: column;
+}
+
+.contact {
+  flex-direction: column;
+}
+
+.contact-group {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  width: 70vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts {
+  width: 80vw;
+}
+
+form,
+input,
+textarea,
+button {
+  width: 70vw;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  width: 300px;
+  height: 450px;
+}
+
+.mapouter {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.address {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+footer {
+  font-size: 1.3vh;
+}
