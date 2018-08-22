@@ -302,6 +302,19 @@ a:hover {
   color: white;
 }
 
+.time {
+  background-color: #03306b;
+  padding: 2vh;
+  font-size: 3vh;
+  color: white;
+}
+
+.contact-group:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Footer */
 
 footer {
