@@ -4,37 +4,7 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 9vh;
-  background-color: #03306b;
-  color: white;
-  position: fixed;
-  width: 100vw;
-}
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-nav li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  width: 15vw;
-  font-size: 2.5vh;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
 
 a:hover {
   color: red;
@@ -157,6 +127,7 @@ form {
 
 form span {
   margin-left: 2vh;
+  margin: 2vh auto
 }
 
 input,
@@ -191,6 +162,15 @@ button:hover {
 form span {
   margin-left: 2vh;
   font-size: 2.2vh;
+}
+
+.radio {
+  padding: 1vh;
+  flex-direction: row;
+}
+
+div label {
+  padding: 2vh;
 }
 
 html {

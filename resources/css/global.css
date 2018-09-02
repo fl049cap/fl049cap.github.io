@@ -1,0 +1,31 @@
+/* Header */
+
+.navbar-brand img {
+  max-width: 15vw;
+}
+
+.navbar-toggler {
+  max-width: 20vw;
+}
+
+div li {
+  font-size: 2.3vh;
+  min-width: 10vw;
+}
+
+.navbar-collapse {
+  margin-left: 7vw;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+footer {
+  background-color: #aa0d1a;
+  color: white;
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
