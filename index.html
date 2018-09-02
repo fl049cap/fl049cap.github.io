@@ -9,24 +9,47 @@
     <link href="./resources/css/index/1024.css" media="screen and (max-width: 1024px) and (min-width: 769px)" type="text/css" rel="stylesheet" />
     <link href="./resources/css/index/768.css" media="screen and (max-width: 850px) and (min-width: 481px)" type="text/css" rel="stylesheet" />
     <link href="./resources/css/index/480.css" media="screen and (max-width: 480px)" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Ormond CAP</title>
   </head>
   <body>
 
-    <div class="nav">
-      <header>
-        <nav>
-          <a href="#"><li>Home</li></a>
-          <a href="calendar.html"><li>Calendar</li></a>
-          <a href="resources.html"><li>Resources</li></a>
-          <a href="#contact"><li>Contact</li></a>
-        </nav>
-      </header>
-    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="./resources/images/caplogo.png" /></a>
+  <button class="navbar-toggler btn btn-default" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Calendar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Resources</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="index.html#contact">Contact</a>
+          <a class="dropdown-item" href="https://capnhq.gov">eServices</a>
+          <a class="dropdown-item" href="https://capmembers.com">CAP Members</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
 
     <div class="site-container">
 
-      <div class="landing-area">
+      <div class="container-fluid landing-area">
         <div class="landing">
           <div class="jumbotron">
             <h1>Ormond Beach Composite Squadron, FL-049</h1>
@@ -104,7 +127,7 @@
         </div>
       </div>
 
-      <div class="flag-section">
+      <div class="flag-section container-fluid">
         <div class="service">
           <div class="service-title">
             <h1>Service to our Country</h1>
@@ -206,7 +229,7 @@
         </div>
       </div>
 
-      <div class="footer">
+      <div>
         <footer>
           <ul>
             <li>© Ormond Beach Composite Squadron, FL-049. Officially Auxillary of the USAF.</li>
@@ -219,6 +242,9 @@
 
 
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
 
