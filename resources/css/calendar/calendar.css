@@ -100,4 +100,5 @@ footer {
   display: flex;
   align-items: center;
   font-size: 2vh;
+  text-align: center;
 }
