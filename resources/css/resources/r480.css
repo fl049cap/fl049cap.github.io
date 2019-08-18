@@ -4,14 +4,14 @@ header li {
 }
 
 .resource-description {
-  width: 80vw;
+  width: 100vw;
 }
 
-.resources {
+.resources-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 80vw;
+  width: 100vw;
 }
 
 .resource {
@@ -28,7 +28,7 @@ header li {
 }
 
 .request-form {
-  width: 70vw;
+  width: 100vw;
 }
 
 .form-title h1 {
