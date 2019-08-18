@@ -3,25 +3,40 @@ header li {
   width: 20vw;
 }
 
-.resources-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70vw;
-  text-align: center;
-}
-
 .resource-description {
   width: 80vw;
 }
 
-.resource {
-  width: 35vw;
+.resources {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80vw;
 }
 
-.form-title {
-  text-align: center;
+.resource {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
 }
+
+.resource-title {
+  font-size: 2vh;
+}
+
+.request-form {
+  width: 70vw;
+}
+
+.form-title h1 {
+  text-align: center;
+  font-size: 2.5vh;
+}
+
+
 
 form {
   width: 70vw;
